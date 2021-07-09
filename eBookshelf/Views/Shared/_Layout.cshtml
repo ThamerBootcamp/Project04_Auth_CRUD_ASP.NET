@@ -50,7 +50,6 @@
     <div class="bg-light rounded container">
         <main role="main" class="pb-3">
             <div class="p-3 my-3">
-                <div id="loader"></div>
                 @RenderBody()
             </div>
         </main>
@@ -67,6 +66,7 @@
         </footer>*@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 
